@@ -1,0 +1,17 @@
+article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+article:first-of-type {
+    margin-top: 20px;
+}
+
+.discounted {
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
