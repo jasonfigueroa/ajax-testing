@@ -49,7 +49,7 @@ db.getCategories((categories) => {
     // console.log(categories);
     // console.log(products);
     // console.log(filteredProducts);
-    renderDiscountSelect(categories.categories);
+    renderDiscountSelect(products.products, categories.categories);
     renderMain(products.products, categories.categories);
   });
 });
