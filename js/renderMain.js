@@ -1,7 +1,6 @@
 const renderMain = (productsArray, categoriesArray) => {
   const main = $('#main');
   productsArray.forEach((product) => {
-    // department name
     const categoryObj = categoriesArray.find((category) => {
       return category.id === product.category_id;
     });
