@@ -13,3 +13,5 @@ To run the project locally:
 2. run `npm install`
 3. run `grunt`
 4. run `http-server`
+
+Note: The data.json file in the data directory is just what I uploaded to firebase, it is not currently in use within the project.
