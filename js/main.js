@@ -5,8 +5,8 @@ const renderDiscountSelect = require('./discountSelect/renderDiscountSelect');
 $(document).ready(function () {
   db.getCategories((categories) => {
     db.getProducts((products) => {
-      renderDiscountSelect(products.products, categories.categories);
-      renderMain(products.products, categories.categories);
+      renderDiscountSelect(products, categories);
+      renderMain(products, categories);
     });
   });
 });
