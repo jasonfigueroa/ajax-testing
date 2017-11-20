@@ -4,6 +4,8 @@ const placeholderOption = () => {
   defaultOption.disabled = true;
   defaultOption.selected = true;
   defaultOption.innerHTML = 'select discount';
+
+  return defaultOption;
 };
 
 module.exports = placeholderOption;
