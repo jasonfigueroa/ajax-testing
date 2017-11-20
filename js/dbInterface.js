@@ -2,7 +2,7 @@ const db = Object.create(null, {
   getCategories: {
     value: (callback) => {
       return $.ajax({
-        url: './js/categories.json',
+        url: './data/categories.json',
         method: 'GET',
       }).then((categories) => {
         callback(categories);
@@ -12,7 +12,7 @@ const db = Object.create(null, {
   getProducts: {
     value: (callback) => {
       return $.ajax({
-        url: './js/products.json',
+        url: './data/products.json',
         method: 'GET',
       }).then((products) => {
         callback(products);
