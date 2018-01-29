@@ -19,6 +19,16 @@ const db = Object.create(null, {
       });
     },
   },
+  getCustomers: {
+    value: (callback) => {
+      return $.ajax({
+        url: 'http://bangazon.com:5000/api/customer',
+        method: 'GET',
+      }).then((customers) => {
+        callback(customers);
+      });
+    },
+  },
 });
 
 module.exports = db;

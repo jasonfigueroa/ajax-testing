@@ -8,5 +8,9 @@ $(document).ready(function () {
       renderDiscountSelect(products, categories);
       renderMain(products, categories);
     });
+
+    // db.getCustomers((customers) => {
+    //   console.log(customers);
+    // });
   });
 });
